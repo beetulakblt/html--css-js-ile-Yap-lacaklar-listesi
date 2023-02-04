@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yapılacaklar</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+ <h2>Takım Projesi</h2>
+ <nav class = "sayfa">
+      <nav class="bekleyenler"><h3>Bekleyen İşler</h3></nav>
+      <nav class="bekleyenler"><h3>Devam eden işler</h3></nav>
+      <nav class="bekleyenler"><h3>Biten işler</h3></nav>
+
+      <form id="formTasks" action="javascript:void(0)" class="görevler">
+         <h3>Görev Ekle</h3>
+         <input id="baslık" type="text" placeholder="Başlık">
+         <textarea id="acıklama" placeholder="Açıklama"></textarea>
+         <input id="date" type="date" >
+         <button id="ekle">Görev Ekle</button>
+         <div class = "tekliSil" >Silmek için buraya sürükleyiniz</div>
+      </form>
+      
+ </nav>
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="app.js"></script>
+</body>
+</html>

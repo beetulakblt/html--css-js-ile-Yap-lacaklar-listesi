@@ -1,0 +1,65 @@
+*{
+    margin: auto;
+    padding: auto;
+    text-decoration: none;
+} 
+body{
+    background-image: url("333.JFIF");
+    background-size: cover;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.sayfa{
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px 50px;
+}
+.bekleyenler{
+    background-color: pink;
+    width: 200px;
+    height: 300px;
+    overflow: auto;
+    padding: 10px;
+}
+.görevler{
+    background-color:pink;
+    overflow: auto;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    display: flex;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    outline: none;
+    border:none;
+}
+textarea{
+    display: flex;
+    margin-left: 10px;
+}
+button{
+    display: flex;
+    margin: 10px 10px;
+    padding: 5px 5px;
+    background-color: blue;
+    border-radius: 6px;
+    outline: none;
+}
+.tekliSil{
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-style: dashed;
+} 
+p{
+background-color: white;
+padding: 5px;
+border: 2px solid black;
+margin: 5px;
+}
